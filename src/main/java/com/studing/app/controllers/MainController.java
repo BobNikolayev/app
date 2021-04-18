@@ -11,8 +11,14 @@ public class MainController {
     public String home(Model model) {
         model.addAttribute("title", "Home Page");
         return "home";
-
     }
+
+//    @GetMapping("/cart")
+//    public String cart(Model model) {
+//        model.addAttribute("title", "Cart");
+//        return "cart";
+//    }
+
 
 }
 
